@@ -1,0 +1,1124 @@
+
+.body{
+
+   background-image: url(images/R.gif);
+   background-size: cover;
+
+}
+
+.header{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+@font-face {
+   font-family: "miletra";
+   src: url(fonts/Bangers/Bangers-Regular.ttf);
+}
+@font-face {
+   font-family: "miletra1";
+   src: url(fonts/Patrick_Hand/PatrickHand-Regular.ttf);
+}
+@font-face {
+   font-family: "miletra2";
+   src: url(fonts/Kalam/Kalam-Bold.ttf);
+}
+
+@font-face {
+   font-family: "miletra3";
+   src: url(fonts/Special_Elite/SpecialElite-Regular.ttf);
+}
+
+@font-face {
+   font-family: "miletra3";
+   src: url(fonts/Bungee/Bungee-Regular.ttf);
+}
+
+.section{
+width: 50%;
+   display: flex;
+
+   flex-wrap: wrap;
+}
+
+.section1{
+flex-wrap: wrap;
+width: 50%;
+   display: flex;
+}
+.h2{
+  background-color: rgba(255, 255, 255,0.7) ;
+font-size: 40px;
+   font-family: "miletra";
+
+}
+.subh2{
+   font-family: "miletra";
+   
+}
+
+.div{
+   background-color: rgba(255, 255, 255,0.7) ;
+   font-family: "miletra1";
+margin: 10px;
+}
+
+.div1{
+   background-color: rgba(255, 255, 255,0.7) ;
+   font-family: "miletra2";
+   margin: 15px;
+}
+.sub1h2{
+background-color: rgba(255, 255, 255,0.7);
+   font-family: "miletra";
+
+}
+.h1{
+   background-color: rgba(255, 255, 255,0.7) ;
+   font-family: "miletra1";
+
+}
+.article{
+width: 600px;
+text-align: center;
+
+
+}
+.sub{
+   border-radius: 60px;
+   font-family: "miletra1";
+   font-size: 20px;
+width: 390px;
+background-color: rgb(242, 245, 52);
+}
+
+.sub1{
+   background-color: rgb(242, 245, 52);
+   border-radius: 60px;
+   font-family: "miletra1";
+   font-size: 20px;
+   width: 390px;
+
+display: flex;
+
+justify-content: center;
+}
+.div2{
+display: flex;
+width: 300px;
+ font-family: "miletra2";
+ flex-wrap: wrap;
+  justify-content: space-around;
+
+   margin: 15px;
+}
+
+.nav{
+   background-color: rgba(255, 255, 255,0.7);
+   font-family: "miletra3";
+   display: flex;
+margin: 20px;
+font-size: 20px;
+
+}
+
+.a{
+   text-decoration: none;
+   color: black;
+
+}
+
+.li{
+
+   display: flex;
+}
+
+.subh1{
+font-size: 50px;
+   font-family: "miletra3";
+   background-image: url(images/partitura.webp);
+}
+
+.sub1h1{
+   font-family: "miletra2";
+   flex-wrap: wrap;
+   width: 180px;
+   justify-content: space-around;
+   display: flex;
+margin: 10px;
+border-radius: 60px;
+background-color: rgb(242, 245, 52);
+width: 200px;
+height: 40px;
+}
+
+.article1{
+   background-image: url(images/partitura.webp);
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+text-align: center;
+   align-items: center;
+   font-size: 20px;
+   border-radius: 60px;
+   margin: 20px;
+}
+
+.article2{
+   background-image: url(images/partitura.webp);
+display: flex;
+flex-direction: column;
+width: 50%;
+height: 800px;
+text-align: center;
+margin: 15px;
+align-items: center;
+margin-top: 350px;
+border-radius: 60px;
+
+
+}
+
+.contenedor{
+
+   display: flex;
+ 
+}
+
+.divsito{
+   display: flex;
+justify-content: center;
+align-items: center;
+
+flex-direction: column;
+margin: 20px;
+}
+
+@media screen and (min-width:320px) and (max-height:460px){
+.header{
+
+   display: flex;
+   flex-direction: column;
+}
+.contenedor{
+flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.nav{
+   display: flex;
+   width: 160px;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   font-size: 15px;
+}
+.contenedor{
+
+   width: 500px;
+}
+
+.subh1{
+
+   font-size: 30px;
+}
+
+.article2{
+   width: 300px;
+   margin: 20px;
+}
+.sub{
+
+   width: 250px;
+}
+.sub1{
+   width: 300px;
+font-size: 15px;
+}
+.sub1h2{
+
+   font-size: 25px;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+width: 290px;
+}
+   }
+   
+
+   .body1{
+
+      background-image: url("images/arquitecto.gif");
+      background-size: cover;
+   }
+
+   .header1{
+
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .ar{
+font-size: 70px;
+      font-family: "miletra";
+   }
+
+   .arquitecto{
+padding: 35px;
+      font-family: "miletra2";
+      font-size: 20px;
+   align-items: center;
+   align-content: center;
+   padding: 30px;
+
+   }
+
+   .arquitect{
+      margin-top: 950px;
+height: 590px;
+align-content: center;
+      display: flex;
+      text-align: end;
+      border-radius: 100px 50px 100px 50px;
+      background-color: rgba(219, 255, 16, 0.6);
+      align-items: center;
+      border-radius: 100px 50px 100px 50px;
+   flex-direction: column;
+   }
+
+
+.arquitecta{
+padding: 40px;
+   display: flex;
+
+}
+
+.artis{
+font-size: 32px;
+   font-family: "miletra3";
+   background-color: rgba(219, 255, 16, 0.6);
+   border-radius: 100px 50px 100px 50px;
+padding: 30px;
+}
+
+.artis1{
+   border-radius: 100px 50px 100px 50px;
+font-size: 25px;
+   font-family: "miletra2";
+   background-color: rgba(219, 255, 16, 0.6);
+   padding: 30px;
+}
+
+
+.artis6{
+   font-size: 25px;
+
+   font-family: "miletra1";
+   background-color: rgba(255, 255, 255,0.6);
+
+}
+
+
+
+
+.norman{
+height: 280px;
+   width: 380px;
+   display: flex;
+   flex-wrap: wrap;
+ 
+}
+
+.rasca{
+
+   display: flex;
+   flex-wrap: wrap;
+   height: 280px;
+   width: 380px;
+
+}
+
+.artista{
+   height: 300px;
+text-align: justify;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.artis2{
+   display: flex;
+   flex-wrap: wrap;  
+  padding: 25px;
+  align-items: center;
+   font-family: "miletra1";
+   font-size: 25px;
+   background-color: rgba(255, 255, 255,0.6);
+
+   height: 950px;
+   border-radius: 100px 50px 100px 50px;
+   }
+
+.pes{
+
+   padding: 20px;
+}
+
+.artis7{
+
+
+   font-family: "miletra1";
+   font-size: 25px;
+   background-color: rgba(255, 255, 255,0.6);
+padding: 30px;
+   border-radius: 100px 50px 100px 50px;
+   }
+   .artista1{
+
+   text-align: justify;
+display: flex;
+      
+   
+   }
+   @media screen and (min-width:320px) and (max-height:460px){
+      .header1{
+      
+         display: flex;
+         flex-direction: column;
+         padding: 10px;
+         flex-wrap: wrap;
+      }
+       .arquitect{
+display: flex;
+margin-top: 1px;
+height: 600px;
+width: 280px;
+flex-direction: column;
+margin-bottom: 140px;
+       }
+    .arquitecto{
+       text-align: justify ;
+font-size: 15px;
+      display: flex;
+      flex-wrap: wrap;
+margin-top: 1px;
+justify-content: space-around;
+width: 240px;
+margin-top: 70px;
+
+   }  
+
+   .ar{
+
+      font-size: 50px;
+   }
+
+.arti{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 1px;
+   height: 100px;
+justify-content: start;
+width: 240px;
+
+}
+
+.arti1{
+
+   display: flex;
+   flex-wrap: wrap;
+   width: 260px;
+   justify-content: space-around;
+
+}
+
+.artis7{
+
+display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 180px;
+   justify-content: space-around;
+}
+
+.artista1{
+
+   display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-size: 20px;
+padding: 10px;
+
+}
+.rasca{
+   width: 200px;
+   height: 200px;
+}
+.pes{
+
+   width: 170px;
+}
+.norman{
+   width: 200px;
+   height: 200px;  
+}
+
+.artis2{
+
+   display: flex;
+      width: 200px;
+height: 2000px;
+align-items: flex-start;
+
+   }
+
+   .artista{
+      flex-wrap: wrap;
+      display: flex;
+height: 1000px;
+   font-size: 20px;
+   margin-top: 50px;
+   padding-bottom: 1px;
+margin-bottom: 1px;
+   }
+         }
+
+         .header2{
+
+            display: flex;
+            justify-content: space-around;
+         }
+       
+         .inicio{
+            font-size: 32px;
+               font-family: "miletra3";
+               
+      background-color: rgb(138, 43, 226);
+               border-radius: 100px 50px 100px 50px;
+               padding: 30px;
+               width: 160px;
+            color: rgb(255, 255, 0);
+       margin-left: 150px;  
+         }
+         .danzante{
+            padding: 40px;
+               display: flex;
+}            
+         .danza{
+            margin-top: 550px;
+            display: flex;
+         padding: 30px;
+            flex-direction: column;
+  margin-left: 400px;
+         }
+
+         .danza1{
+            background-color: rgb(138, 43, 226);
+            width: 500px;
+            color: rgb(255, 255, 255);
+                  font-family: "miletra2";
+                  font-size: 20px;
+             text-align: justify;
+               padding: 30px;
+            
+               }  
+.da{
+font-size: 70px;
+font-family: "miletra";
+   color: rgb(255, 255, 0);
+}
+.dance{
+   background-color: rgb(138, 43, 226);
+   font-size: 32px;
+      font-family: "miletra3";
+      border-radius: 100px 50px 100px 50px;
+   padding: 30px;
+   width: 400px;
+   color: rgb(255, 255, 0);
+   }
+   
+   .dance1{
+      background-color: rgb(138, 43, 226);
+      border-radius: 100px 50px 100px 50px;
+   font-size: 25px;
+      font-family: "miletra2";
+      color: rgb(255, 255, 0);
+      padding: 30px;
+display: flex;
+
+   }
+   .dancing{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 1px;
+      height: 100px;
+   justify-content: start;
+   width: 240px;
+   
+   }
+                  .subdanza{
+                     background-color: rgba(138, 43, 226,0.4);
+                     display: flex;
+                     flex-wrap: wrap;
+                     width: 260px;
+                     justify-content: space-around;
+                  
+                  }
+                              
+.danzita{
+   display: flex;
+   flex-wrap: wrap;  
+  padding: 45px;
+   font-family: "miletra1";
+   font-size: 25px;
+   background-color: rgb(138, 43, 226);
+   color: rgb(255, 255, 255);
+   border-radius: 100px 50px 100px 50px;
+width: 400px;  
+}      
+
+   .danzita1{
+      height: 480px;
+   text-align: justify;
+      display: flex;
+      justify-content: space-around;
+   
+   } 
+
+  
+.pes{
+
+   padding: 20px;
+} 
+.danzando{
+
+   display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+ 
+   }
+   .danzando1{
+      font-family: "miletra1";
+      text-align: justify;
+   display: flex;
+   background-color: rgb(138, 43, 226); 
+   color: rgb(255, 255, 255); 
+   width: 580px;  
+   font-size: 20px; 
+   align-items: center;
+   align-content: center;
+   padding: 20px;   
+      }
+
+      @media screen and (min-width:320px) and (max-height:460px){
+
+         .header2{
+flex-wrap: wrap;
+            display: flex;
+margin-right: 60px;
+            }
+
+
+.danzita1{
+
+flex-direction: column;
+   display: flex;
+
+   font-size: 18px;
+
+}
+
+.danza{
+   display: flex;
+   margin-right: 250px;
+   margin-top: 2550px;
+
+}
+
+.dance{
+   font-size: 20px;
+
+}
+.danza1{
+width: 230px;
+   text-align: justify;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+
+.danzando1{
+
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 20px;
+width: 260px;
+}
+.inicio{
+font-size: 20px;
+}
+      }   
+
+      .header3{
+
+         display: flex;
+
+      }
+      .escultura{
+         padding: 40px;
+            display: flex;
+    align-items: center;
+}  
+.subes{
+   background-color: rgb(146, 239, 255);
+   font-size: 32px;
+      font-family: "miletra3";
+      border-radius: 100px 50px 100px 50px;
+   padding: 30px;
+   width: 400px;
+   color: rgb(255, 0, 0);
+   text-align: center;
+   } 
+
+   .subes1{
+      background-color: rgb(146, 239, 255);
+      font-size: 25px;
+         font-family: "miletra2";
+         border-radius: 100px 50px 100px 50px;
+      padding: 30px;
+      width: 400px;
+      color: rgb(255, 0, 0);
+      text-align: center;   
+   }   
+
+   .esculturita{
+      display: flex;
+      flex-wrap: wrap;  
+      padding: 45px;
+      font-family: "miletra1";
+      font-size: 25px;
+      background-color: rgba(146, 239, 255,0.6);
+      color: rgb(255, 0, 0);
+      border-radius: 100px 50px 100px 50px;
+      width: 400px;  
+      }      
+   
+.esculturita1{
+
+text-align: justify;
+   display: flex;
+flex-direction: column;
+
+} 
+   
+ .iniciando{
+         font-size: 32px;
+            font-family: "miletra3";
+            
+            background-color: rgb(146, 239, 255);
+            color: rgb(255, 0, 0);
+            border-radius: 100px 50px 100px 50px;
+            padding: 30px;
+            width: 160px;
+    margin-left: 150px;  
+      }
+         
+      .subescultura{
+
+         display: flex;
+      padding: 30px;
+         flex-direction: column;
+
+      }
+
+      .subescultura1{
+         background-color: rgba(146, 239, 255,0.6);
+         color: rgb(255, 0, 0);
+         width: 500px;
+               font-family: "miletra2";
+               font-size: 20px;
+          text-align: end;
+            padding: 30px;
+
+            }  
+
+.cul{
+
+   font-size: 60px;
+   font-family: "miletra";
+}
+
+
+@media screen and (min-width:320px) and (max-height:460px){
+
+   .header3{
+      display: flex;
+flex-direction: column;
+
+   }
+
+   .escultura{
+      padding: 10px;
+         display: flex;
+flex-direction: column;
+
+}  
+ 
+.subes{
+   background-color: rgb(146, 239, 255);
+   font-size: 20px;
+      font-family: "miletra3";
+      border-radius: 100px 50px 100px 50px;
+   padding: 30px;
+   width: 150px;
+   color: rgb(255, 0, 0);
+   text-align: center;
+
+   } 
+.escultura1{
+
+   width: 250px;
+}
+.esculturita{
+   display: flex;
+   flex-wrap: wrap;  
+   padding: 65px;
+   font-family: "miletra1";
+   font-size: 25px;
+   background-color: rgba(146, 239, 255,0.6);
+   color: rgb(255, 0, 0);
+   border-radius: 100px 50px 100px 50px;
+   width: 135px;  
+   }
+
+   .norman{
+      width: 160px;
+   }
+   .subescultura1{
+      background-color: rgba(146, 239, 255,0.6);
+      color: rgb(255, 0, 0);
+      width: 300px;
+            font-family: "miletra2";
+            font-size: 15px;
+       text-align: end;
+         padding: 30px;
+
+         }  
+         .subes1{
+            background-color: rgb(146, 239, 255);
+            font-size: 25px;
+               font-family: "miletra2";
+               border-radius: 100px 50px 100px 50px;
+            padding: 30px;
+            width: 200px;
+            color: rgb(255, 0, 0);
+            text-align: center;   
+         }  
+
+
+}
+
+
+.header4{
+
+   display: flex;
+flex-direction: column;
+align-items: center;
+}
+.musica{
+   padding: 20px;
+      display: flex;
+
+}  
+.submu{
+background-color: rgb(255, 153, 0);
+font-size: 27px;
+font-family: "miletra3";
+border-radius: 100px 50px 100px 50px;
+padding: 25px;
+width: 400px;
+color: rgb(0, 255, 21);
+text-align: end;
+} 
+
+.submu1{
+   background-color: rgb(255, 153, 0);
+font-size: 30px;
+   font-family: "miletra2";
+   border-radius: 100px 50px 100px 50px;
+padding: 30px;
+width: 400px;
+color: rgb(0, 255, 21);
+text-align: start;   
+}   
+
+.musiquita{
+display: flex;
+flex-wrap: wrap;  
+padding: 35px;
+font-family: "miletra1";
+font-size: 25px;
+background-color: rgb(255, 153, 0);
+color: rgb(0, 255, 21);
+border-radius: 100px 50px 100px 50px;
+width: 400px;  
+}      
+
+.musiquita1{
+
+text-align: justify;
+display: flex;
+margin: 40px;
+
+} 
+
+.iniciando1{
+   font-size: 32px;
+      font-family: "miletra3";
+      
+      background-color: rgb(255, 153, 0);
+      color: rgb(0, 255, 21);
+      border-radius: 100px 50px 100px 50px;
+      padding: 30px;
+      width: 160px;
+
+}
+   
+.submusica{
+
+   display: flex;
+padding: 30px;
+   flex-direction: column;
+
+}
+
+.submusica1{
+   background-color: rgb(255, 153, 0);
+   color: rgb(0, 255, 21);
+   width: 700px;
+         font-family: "miletra2";
+         font-size: 20px;
+    text-align: center;
+      padding: 30px;
+
+      }  
+
+.mus{
+
+font-size: 60px;
+font-family: "miletra";
+}
+
+
+@media screen and (min-width:320px) and (max-height:460px){
+.header4{
+
+   justify-content: center;
+   align-items: center;
+}
+   .musica{
+
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+.musica1{
+   display: flex;
+   width: 340px;
+   flex-direction: column;
+   font-size: 20px;
+}
+
+.musiquita{
+   display: flex;
+   width: 240px;
+   flex-direction: column;
+   font-size: 20px;
+}
+
+.norman{
+
+   width: 200px;
+}
+
+.submu{
+width: 290px;
+   font-size: 20px;
+}
+
+.submu1{
+
+   width: 240px;
+}
+
+.submusica{
+   width: 200px;
+
+}
+.submusica1{
+font-size: 15px;
+   text-align: start ;
+}
+
+}
+
+.calendarb{
+
+   background-image: url('images/tiempo.webp');
+background-size: cover;
+}
+.calendario{
+   width: 920px;
+display: flex;
+flex-direction: column;
+}
+
+.calendar{
+background-color: rgb(134, 133, 133);
+display: flex;
+padding: 25px;
+width: 1280px;
+}
+.oliv{
+
+display: flex;
+font-family: "miletra";
+font-size: 60px;
+margin-left: 40px;
+
+}
+
+.calen{
+
+display: flex;
+}
+
+.usuario{
+
+display: flex;
+
+}
+
+.pendeja{
+border: 3px solid;
+border-radius: 100px;
+}
+.tabla{
+flex-wrap: wrap;
+display: flex;
+width: 200%;
+}
+.saludo{
+width: 130%;
+margin: 35px;
+padding: 35px;
+display: flex;
+background-color: rgb(80, 80, 80);
+flex-direction: column;
+text-align: start;
+justify-content: space-around;
+
+}
+
+.legendas{
+font-size: 20px;
+font-family: "miletra1";
+justify-content: center;
+padding: 20px;
+border: 2px solid;
+border: 100px 50px 100px 50px;
+width: 255px;
+}
+
+th{
+align-content: center;
+border-radius: 100px;
+border: 2px solid;
+padding: 10px;
+background-color: rgb(255, 255, 255); 
+}
+.tr{
+
+
+text-align: center;
+display: flex;
+flex-direction: column;
+font-family: "miletra1";
+font-size: 25px;
+
+}
+.subs{
+
+text-align: center;
+color: rgb(255, 255, 255);
+
+}
+.legend{
+background-color: rgb(255, 255, 255);
+border: 2px solid;
+text-align: center;
+padding:10px ;
+border-radius: 30%;
+
+}
+
+.fecha{
+margin-left: 20px;
+display: flex;
+padding-bottom: 30px;
+}
+
+.fecha1{
+margin-left: 40px;
+border: 4px solid;
+border-radius:100px ;
+}
+
+.subcalendar{
+   background-color: rgb(255, 255, 255);
+   border: 2px solid;
+   text-align: center;
+   padding:10px ;
+   border-radius: 30%;
+   font-family: "miletra1";
+   width: 150px;
+color: rgb(0, 0, 0);
+}
+
+.legendas1{
+   font-size: 60px;
+   font-family: "miletra1";
+   justify-content: center;
+   padding: 20px;
+   border: 2px solid;
+   border: 100px 50px 100px 50px;
+   width: 255px;
+   }
+
+   @media screen and (min-width:320px) and (max-height:460px){
+
+      .legendas{
+
+display: flex;
+flex-direction: column;   
+flex-direction: column; 
+width: 20px;
+      }
+
+.table{
+   flex-direction: column;
+}
+
+   }
