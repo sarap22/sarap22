@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import 'package:coffeepets/screen/principal.dart';
+>>>>>>> 1db948d (proyecto flutter adso6)
 import 'package:lottie/lottie.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +15,11 @@ class splash extends StatefulWidget {
 class _splashState extends State<splash> {
   @override
   void initState() {Future.delayed(Duration(seconds: 5),(){
+<<<<<<< HEAD
     //Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> pantallaU()));
+=======
+    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> principal()));
+>>>>>>> 1db948d (proyecto flutter adso6)
   });}
   Widget build(BuildContext context){
     return Scaffold(

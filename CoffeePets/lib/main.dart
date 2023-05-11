@@ -11,6 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
+=======
+      //theme: ThemeData(fontFamily: 'Raleway'),
+>>>>>>> 1db948d (proyecto flutter adso6)
       home:splash(),
     );
   }
